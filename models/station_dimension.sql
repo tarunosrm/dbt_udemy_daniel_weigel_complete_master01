@@ -3,6 +3,7 @@
 
 -- Code used for station_dimension.sql model:
 
+{{ config(schema='DEMO_SCHEMA', database='DEMO', materialized='table') }}
 
 WITH BIKE as (
 
